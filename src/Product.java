@@ -5,6 +5,8 @@ public class Product {
 
     double price;
 
+//    int num_in_Store;
+
 
     public String getName() {
         return name;
@@ -22,5 +24,10 @@ public class Product {
         this.name = name;
         this.description = description;
         this.price = price;
+//        this.num_in_Store = num_in_Store;
     }
+
+//    public int getNum_in_Store() {
+//        return num_in_Store;
+//    }
 }
